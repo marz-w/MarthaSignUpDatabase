@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    body {
+    background: url(image/orange-watercolor-background-desktop-wallpaper-abstract-design.jpg);
+    background-size: cover;
+    opacity: 100;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    }
+    
+    .container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    }
+
+    .image-container {
+        width: 50%;
+        }
+        
+        .image-container img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        object-fit: cover;
+        }
+    
+    .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    }
+    
+    h2 {
+    margin-bottom: 20px;
+    color: orangered;
+    text-align: center;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+    button {
+    width: 100%;
+    padding: 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #c02727;
+    }
+
+    p{
+        margin-top: 20px;
+        text-align: center;
+        font-size: medium;
+    }
+    
+    /*pt, em, rem, pt,dvh,dvw
+    
+    

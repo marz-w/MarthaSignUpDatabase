@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up and Login</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:visited {
+          color: rgb(15, 90, 240);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
+</head>
+<body> 
+    <div class="image-container">
+    <img src="image/pngegg (2).png" alt="">
+</div>
+    <div class="container">
+             <div class="form-container">
+             <form id="login-form" method="POST" action="insert.php"> 
+                <h2>Login</h2> 
+                <label for="login-username"></label> 
+                <input type="text" id="login-username" name="username"placeholder="username" required> 
+                <label for="login-password"></label> 
+                <input type="password" id="login-password" name="password"placeholder="password" required> 
+                <p>Don't have an account?<a href="signup.html">Sign Up</a></p>
+            </form> 
+        </div> 
+    </div> 
+</body> 
+</html>
